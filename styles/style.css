@@ -33,6 +33,7 @@ nav {
     top: 0;
     align-items: center;
     padding: 18px 5%;
+    background-color: black;
 }
 
 .ul-title ul {
@@ -165,22 +166,31 @@ nav {
     border-bottom: 2px solid gold;
     margin-left: 130px;
 }
-.divi{
+
+.divi {
     text-align: center;
 }
-.divider{
-   padding: 20px;
+
+.divi h1 {
+    text-decoration: underline;
 }
-.title p{
+
+.divider {
+    padding: 20px;
+}
+
+.title p {
     display: grid;
     gap: 20px;
 }
-.center{
+
+.center {
     display: grid;
     justify-content: center;
     text-align: center;
     gap: 20px;
 }
+
 .buton {
     width: 100px;
     text-align: center;
@@ -190,13 +200,75 @@ nav {
     color: black;
     border: none;
     border-radius: 10px;
-    
+
 }
-.btn-container{
+
+.btn-container {
     text-align: center;
-   
+
 }
-.buton a{
+
+.buton a {
     text-decoration: none;
-     transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
 }
+
+.head {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.img-pic img {
+    width: 50%;
+    border-radius: 100%;
+}
+
+.img-pic {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(125, 37, 240);
+    background-color:aquamarine;
+
+}
+
+.hadign {
+    display: grid;
+    gap: 5px;
+}
+
+.hadign button {
+    width: 65%;
+    padding: 10px 8px;
+    border-radius: 40rem;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    background-color: white;
+    color:rgb(211, 29, 29);
+    border: 1px solid goldenrod;
+    cursor: pointer;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+
+.hadign h2 {
+    color: goldenrod;
+}
+
+.hadign h3 {
+    color: rgb(176, 127, 255);
+}
+ 
