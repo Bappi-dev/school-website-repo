@@ -165,3 +165,38 @@ nav {
     border-bottom: 2px solid gold;
     margin-left: 130px;
 }
+.divi{
+    text-align: center;
+}
+.divider{
+   padding: 20px;
+}
+.title p{
+    display: grid;
+    gap: 20px;
+}
+.center{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+.buton {
+    width: 100px;
+    text-align: center;
+    padding: 15px 25px;
+    font-weight: bold;
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    
+}
+.btn-container{
+    text-align: center;
+   
+}
+.buton a{
+    text-decoration: none;
+     transition: transform 0.3s ease;
+}
